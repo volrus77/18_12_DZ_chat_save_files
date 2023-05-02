@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -lstdc++fs -Wall -O3 CMakeFiles/chat.dir/src/main.cpp.o CMakeFiles/chat.dir/src/chat.cpp.o CMakeFiles/chat.dir/src/sha1.cpp.o -o chat 
