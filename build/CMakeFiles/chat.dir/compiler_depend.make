@@ -223,7 +223,28 @@ CMakeFiles/chat.dir/src/chat.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
   /usr/include/c++/9/bits/atomic_lockfree_defines.h \
   /usr/include/c++/9/backward/auto_ptr.h \
   /usr/include/c++/9/pstl/glue_memory_defs.h \
-  /usr/include/c++/9/pstl/execution_defs.h
+  /usr/include/c++/9/pstl/execution_defs.h \
+  /usr/include/c++/9/filesystem \
+  /usr/include/c++/9/bits/fs_fwd.h \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
+  /usr/include/c++/9/bits/fs_path.h \
+  /usr/include/c++/9/locale \
+  /usr/include/c++/9/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/9/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/9/bits/locale_conv.h \
+  /usr/include/c++/9/iomanip \
+  /usr/include/c++/9/bits/quoted_string.h \
+  /usr/include/c++/9/sstream \
+  /usr/include/c++/9/bits/sstream.tcc \
+  /usr/include/c++/9/codecvt \
+  /usr/include/c++/9/bits/fs_dir.h \
+  /usr/include/c++/9/bits/fs_ops.h
 
 CMakeFiles/chat.dir/src/main.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_chat_save_files/src/main.cpp \
   /usr/include/stdc-predef.h \
@@ -470,6 +491,28 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 
 /home/vol/projekts/skillfactory/18_12_DZ_chat_save_files/src/main.cpp:
 
+/usr/include/c++/9/bits/fs_ops.h:
+
+/usr/include/c++/9/bits/sstream.tcc:
+
+/usr/include/c++/9/sstream:
+
+/usr/include/c++/9/bits/quoted_string.h:
+
+/usr/include/c++/9/iomanip:
+
+/usr/include/c++/9/bits/locale_facets_nonio.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h:
+
+/usr/include/c++/9/bits/locale_facets_nonio.h:
+
+/usr/include/c++/9/bits/fs_path.h:
+
+/usr/include/c++/9/bits/parse_numbers.h:
+
+/usr/include/c++/9/chrono:
+
 /usr/include/c++/9/backward/auto_ptr.h:
 
 /usr/include/c++/9/bits/atomic_lockfree_defines.h:
@@ -495,6 +538,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 /usr/include/c++/9/bits/stl_vector.h:
 
 /usr/include/c++/9/bits/stl_relops.h:
+
+/usr/include/c++/9/locale:
 
 /usr/include/c++/9/vector:
 
@@ -530,6 +575,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 
 /usr/include/c++/9/ostream:
 
+/usr/include/c++/9/codecvt:
+
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/9/cstring:
@@ -561,6 +608,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 /usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/9/ratio:
 
 /usr/include/c++/9/bits/shared_ptr_atomic.h:
 
@@ -656,6 +705,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+/usr/include/c++/9/filesystem:
+
 /usr/include/features.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -693,6 +744,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 /usr/include/c++/9/ext/concurrence.h:
 
 /usr/include/stdc-predef.h:
+
+/usr/include/c++/9/ctime:
 
 /usr/include/c++/9/bits/ptr_traits.h:
 
@@ -746,11 +799,15 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 
 /usr/include/c++/9/bits/nested_exception.h:
 
+/usr/include/c++/9/bits/fs_dir.h:
+
 /usr/include/c++/9/bits/atomic_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/c++/9/bits/allocator.h:
+
+/usr/include/c++/9/bits/locale_conv.h:
 
 /usr/include/c++/9/bits/streambuf.tcc:
 
@@ -773,6 +830,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
 
 /usr/include/c++/9/new:
+
+/usr/include/c++/9/bits/fs_fwd.h:
 
 /usr/include/c++/9/bits/vector.tcc:
 
@@ -831,6 +890,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 /usr/include/pthread.h:
 
 /usr/include/c++/9/bits/string_view.tcc:
+
+/usr/include/libintl.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -911,6 +972,8 @@ CMakeFiles/chat.dir/src/sha1.cpp.o: /home/vol/projekts/skillfactory/18_12_DZ_cha
 /usr/include/c++/9/bits/functional_hash.h:
 
 /usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 

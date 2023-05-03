@@ -1,4 +1,6 @@
 #include "chat.h"
+#include <filesystem>
+namespace fs = std::filesystem;
 
 void Chat::startChat()
 {
@@ -62,6 +64,10 @@ void Chat::saveChat()
 		std::fstream users_stream = std::fstream(users_file_, std::ios::in | std::ios::out | 
 		std::ios::trunc);
 		if (users_stream) {
+
+		// разрешения на файл только для владельца, при создании файла
+		fs::permissions(users_file_, fs::perms::owner_all, fs::perm_options::replace);
+ 
 		for(auto &user : userArr_)
 		{
 			users_stream << user << std::endl;
@@ -84,6 +90,9 @@ void Chat::saveChat()
 		std::fstream messages_stream = std::fstream(messages_file_, std::ios::in | std::ios::out |
 		 std::ios::trunc);
 		 if (messages_stream) {
+
+		// разрешения на файл только для владельца, при создании файла
+		fs::permissions(messages_file_, fs::perms::owner_all, fs::perm_options::replace);
 
 		for(auto &msg : messageArr_)
 		{

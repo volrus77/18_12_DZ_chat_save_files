@@ -1,0 +1,4 @@
+2 1 from 2 to 1 
+2 all 
+1 2 privet from 1 to 2
+3 1 privet from3 to 1

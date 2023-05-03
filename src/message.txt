@@ -1,4 +1,0 @@
-2 1 from 2 to 1
-2 all from 2 to all
-1 2 from 1 to 2
-1 all from 1 to all
